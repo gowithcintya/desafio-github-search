@@ -8,10 +8,10 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_repository"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/layout_width"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="16dp"
-        app:cardCornerRadius="16dp"
+        android:layout_marginVertical="@dimen/default_margin"
+        app:cardCornerRadius="@dimen/default_margin"
         app:cardBackgroundColor="@color/dark_grey"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,19 +21,19 @@
             android:id="@+id/cl_repository_content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp">
+            android:layout_margin="@dimen/default_margin">
 
             <TextView
                 android:id="@+id/tv_repository_name"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/layout_width"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:layout_marginEnd="8dp"
+                android:layout_marginEnd="@dimen/layout_margin_end"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/iv_share"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:text="Nome do repositório"/>
+                tools:text="@string/repository_name"/>
 
             <ImageView
                 android:id="@+id/iv_share"

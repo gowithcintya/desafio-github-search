@@ -4,4 +4,5 @@
     <string name="confirm">Confirmar</string>
     <string name="content_description_share_icon">Compartilhar repositório</string>
     <string name="response_error">Usuário não localizado</string>
+    <string name="repository_name">Nome do repositório</string>
 </resources>

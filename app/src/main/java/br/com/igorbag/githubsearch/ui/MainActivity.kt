@@ -57,8 +57,8 @@ class MainActivity : AppCompatActivity() {
     private fun setupListeners() { // Method responsible for setting up click listeners for the screen.
         confirmButton.setOnClickListener {
 
-            val nomePesquisar = userName.text.toString()
-            getAllReposByUserName(nomePesquisar)
+            val searchName = userName.text.toString()
+            getAllReposByUserName(searchName)
             saveUserLocal()
             repositoriesList.isVisible = false
         }
@@ -106,7 +106,6 @@ class MainActivity : AppCompatActivity() {
                         val context = applicationContext
                         Toast.makeText(context, R.string.response_error, Toast.LENGTH_LONG).show()
                     }
-
                 })
         }
     }
