@@ -1,7 +1,17 @@
 # desafio-github-search
-Criando um App Android para compartilhar seu portfolio de projeto 
 
-Criar um App Android simples que armazene um usuário do GitHub (informado em uma tela inicial) e liste todos os seus repositórios públicos. Garanta que o nome do usuário seja salvo e o App tenha a capacidade de redefinir essa informação.
+O desafio de projeto consiste em criar um app Android que armazene um usuário do GitHub (informado
+em uma tela inicial) e liste todos os seus repositórios públicos. Garantindo que o nome do usuário
+seja salvo e o app tenha a capacidade de redefinir essa informação.
 
-![image](https://user-images.githubusercontent.com/5827265/188474294-4472bcc0-24ee-4ccd-80a8-7cee0372e7fa.png)
+O projeto foi iniciado a partir de um fork do repositório disponibilizado pelo instrutor da DIO e
+algumas personalizações foram aplicadas como:
 
+- Personalização do layout: botão, edit text, textos e itens do reciclerView;
+- Implementação de uma progressBar para carregamento dos repositórios após o usuário ser pesquisado;
+- Toast que informa um erro na pesquisa (usuário não localizado);
+- Método openBrowser() para o usuário abrir o repositório no navegador.
+
+## Resultado
+
+<img width="331" alt="imagem às 12 17 43" src="https://github.com/gowithcintya/desafio-github-search/assets/114451088/0f2c1526-1cd1-472b-a4d1-6fcd73648931">
