@@ -21,11 +21,11 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var userName: EditText
-    lateinit var confirmButton: Button
-    lateinit var repositoriesList: RecyclerView
-    lateinit var githubApi: GitHubService
-    lateinit var loading: ProgressBar
+    private lateinit var userName: EditText
+    private lateinit var confirmButton: Button
+    private lateinit var repositoriesList: RecyclerView
+    private lateinit var githubApi: GitHubService
+    private lateinit var loading: ProgressBar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
