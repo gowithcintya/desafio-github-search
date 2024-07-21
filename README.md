@@ -1,17 +1,14 @@
-# desafio-github-search
+# GitHub Search Challenge
 
-O desafio de projeto consiste em criar um app Android que armazene um usuário do GitHub (informado
-em uma tela inicial) e liste todos os seus repositórios públicos. Garantindo que o nome do usuário
-seja salvo e o app tenha a capacidade de redefinir essa informação.
+The project challenge involves creating an Android app that stores a GitHub user (provided at the initial screen) and lists all their public repositories, ensuring the username is saved and the app can reset this information.
 
-O projeto foi iniciado a partir de um fork do repositório disponibilizado pelo instrutor da DIO e
-algumas personalizações foram aplicadas como:
+The project was started from a fork of the repository made available by the DIO instructor, and some customizations were applied such as:
 
-- Personalização do layout: botão, edit text, textos e itens do reciclerView;
-- Implementação de uma progressBar para carregamento dos repositórios após o usuário ser pesquisado;
-- Toast que informa um erro na pesquisa (usuário não localizado);
-- Método openBrowser() para o usuário abrir o repositório no navegador.
+- Layout customization: button, edit text, texts, and RecyclerView items;
+- Implementation of a ProgressBar for loading the repositories after the user is searched;
+- Toast that informs of an error in the search (user not found);
+- The `openBrowser()` method that allows the user to open the repository in the browser.
 
-## Resultado
+## Result
 
 <img width="331" alt="imagem às 12 17 43" src="https://github.com/gowithcintya/desafio-github-search/assets/114451088/0f2c1526-1cd1-472b-a4d1-6fcd73648931">
